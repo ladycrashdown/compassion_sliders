@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Sliders</title>
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    /* Slider Section Styling */
+    .slider-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .slider-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    label {
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    input[type="range"] {
+      width: 60%;
+      margin: 0 10px;
+    }
+
+    .output {
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Line Scales</h1>
+  <p>Move the sliders to indicate where you stand between the two opposing concepts.</p>
+
+  <div class="slider-container">
+    <!-- Slider 1 -->
+    <div class="slider-box">
+      <label>Flat Earth 🌍</label>
+      <input type="range" min="0" max="100" value="50" id="slider1">
+      <label>🌎 Round Earth</label>
+    </div>
+
+    <!-- Slider 2 -->
+    <div class="slider-box">
+      <label>Introvert</label>
+      <input type="range" min="0" max="100" value="50" id="slider2">
+      <label>Extrovert</label>
+    </div>
+
+    <!-- Slider 3 -->
+    <div class="slider-box">
+      <label>Cold Weather ❄️</label>
+      <input type="range" min="0" max="100" value="50" id="slider3">
+      <label>☀️ Hot Weather</label>
+    </div>
+
+    <!-- Slider 4 -->
+    <div class="slider-box">
+      <label>Cats 🐱</label>
+      <input type="range" min="0" max="100" value="50" id="slider4">
+      <label>🐶 Dogs</label>
+    </div>
+
+    <!-- Slider 5 -->
+    <div class="slider-box">
+      <label>Night Owl 🌙</label>
+      <input type="range" min="0" max="100" value="50" id="slider5">
+      <label>🌞 Early Bird</label>
+    </div>
+
+    <!-- Slider 6 -->
+    <div class="slider-box">
+      <label>Mountains 🏔️</label>
+      <input type="range" min="0" max="100" value="50" id="slider6">
+      <label>🏖️ Beach</label>
+    </div>
+
+    <!-- Slider 7 -->
+    <div class="slider-box">
+      <label>Logic 📐</label>
+      <input type="range" min="0" max="100" value="50" id="slider7">
+      <label>🎨 Creativity</label>
+    </div>
+
+    <!-- Slider 8 -->
+    <div class="slider-box">
+      <label>Books 📚</label>
+      <input type="range" min="0" max="100" value="50" id="slider8">
+      <label>🎮 Video Games</label>
+    </div>
+
+    <!-- Slider 9 -->
+    <div class="slider-box">
+      <label>Tea 🍵</label>
+      <input type="range" min="0" max="100" value="50" id="slider9">
+      <label>☕ Coffee</label>
+    </div>
+
+    <!-- Slider 10 -->
+    <div class="slider-box">
+      <label>City Life 🌆</label>
+      <input type="range" min="0" max="100" value="50" id="slider10">
+      <label>🌳 Rural Life</label>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created for fun interactive sliders. Customize as needed!</p>
+  </footer>
+</body>
+</html>
